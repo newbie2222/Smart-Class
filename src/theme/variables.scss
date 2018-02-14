@@ -34,11 +34,12 @@ $app-direction: ltr;
 // The "primary" color is the only required color in the map.
 
 $colors: (
-  primary:    #488aff,
+  primary:    #8b008b,
   secondary:  #32db64,
   danger:     #f53d3d,
   light:      #f4f4f4,
-  dark:       #222
+  dark:       #222,
+  silver:   #c0c0c0
 );
 
 
@@ -53,7 +54,7 @@ $colors: (
 // --------------------------------------------------
 // Material Design only Sass variables can go here
 
-
+$searchbar-md-input-background-color: color($colors, silver);
 
 
 // App Windows Variables

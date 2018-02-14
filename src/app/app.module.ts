@@ -11,6 +11,11 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { UtilitiesPage } from '../pages/utilities/utilities';
 import { SettingPage } from '../pages/setting/setting';
 import { LightPage } from '../pages/light/light';
+import { FanPage } from '../pages/fan/fan';
+import { DoorPage } from '../pages/door/door';
+import { ProjectorPage } from '../pages/projector/projector';
+import { TvPage } from '../pages/tv/tv';
+
 
 
 @NgModule({
@@ -20,7 +25,11 @@ import { LightPage } from '../pages/light/light';
     ListPage,
     SettingPage,
     UtilitiesPage,
-    LightPage
+    LightPage,
+    FanPage,
+    DoorPage,
+    ProjectorPage,
+    TvPage
   ],
   imports: [
     BrowserModule,
@@ -33,7 +42,11 @@ import { LightPage } from '../pages/light/light';
     ListPage,
     SettingPage,
     UtilitiesPage,
-    LightPage
+    LightPage,
+    FanPage,
+    DoorPage,
+    ProjectorPage,
+    TvPage
   ],
   providers: [
     StatusBar,
