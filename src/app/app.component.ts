@@ -2,11 +2,14 @@ import { Component, ViewChild } from '@angular/core';
 import { Nav, Platform } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { NgCalendarModule } from 'ionic2-calendar';
+
 
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 import { UtilitiesPage } from '../pages/utilities/utilities';
 import { SettingPage } from '../pages/setting/setting';
+import { Calendar2Page } from '../pages/calendar2/calendar2';
 
 
 @Component({
@@ -27,7 +30,8 @@ export class MyApp {
       { title: 'Home', component: HomePage },
       { title: 'List', component: ListPage },
       { title: 'Utilities', component: UtilitiesPage },
-      { title: 'Setting', component: SettingPage }
+      { title: 'Setting', component: SettingPage },
+      { title: 'Calendar', component: Calendar2Page}
     ];
 
   }
